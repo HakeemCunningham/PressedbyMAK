@@ -8,6 +8,10 @@ header{
     background-color: #C8E8FF;
 }
 
+body {
+    font-family: "Itim"
+}
+
 li{
     list-style: none;
 }
