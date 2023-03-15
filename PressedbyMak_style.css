@@ -6,10 +6,12 @@
 
 header{
     background-color: #C8E8FF;
+    font-family: "Itim-Regular";
 }
 
 body {
-    font-family: "Itim"
+    font-family: "Itim-Regular";
+    font-size: 25px;
 }
 
 li{
@@ -20,6 +22,8 @@ a{
     color: black;
     text-decoration: none;
 }
+
+/* Navigation bar items */
 
 .navbar{
     min-height: 70px;
@@ -97,4 +101,58 @@ a{
     .nav-menu.active{
        left: 0; 
     }
+}
+
+
+/* These are sections for my product panels */
+@media (min-width: 500px) {
+.product-panes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+        "product-image-one product-image-one"
+        "product-item-one product-item-one"
+        "product-image-two product-image-two"
+        "product-item-two product-item-two"
+        "product-image-three product-image-three"
+        "product-item-three product-item-three"
+        "product-image-four product-image-four"
+        "product-item-four product-item-four"
+        "product-image-five product-image-five"
+        "product-item-five product-item-five"
+        "product-image-six product-image-six"
+        "product-item-six product-item-six"
+        "product-image-seven product-image-seven"
+        "product-item-seven product-item-seven"
+        "product-image-eight product-image-eight"
+        "product-item-eight product-item-eight"
+        "product-image-nine product-image-nine"
+        "product-item-nine product-item-nine"
+        "product-image-ten product-image-ten"
+        "product-item-ten product-item-ten";
+
+    }
+}
+
+.product-image-one{
+    border: 3px solid grey;
+    border-radius: 10px;
+    background-color: lightgrey;
+
+}
+
+.product-item-one .text{
+    padding: 10px;
+}
+
+.product-item-two{
+    border: 3px solid grey;
+    border-radius: 10px;
+    background-color: lightgrey;
+
 }
