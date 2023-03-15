@@ -67,7 +67,19 @@ a{
     background-color: #ffffff;
 }
 
-.product-panes{
+.nav-buttons {
+    background-color: #C8E8FF;
+    color: black;
+    border: 0;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    grid-area: button;
+    margin: 1rem;
+    gap: 5rem;
+    grid-area: button;
+}
+
+.product-panes {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
@@ -76,7 +88,7 @@ a{
 }
 
 .card {
-    background-color: blue;
+    background-color: lightgray;
     border-radius: 1rem;
     display: grid;
     gap: 1rem;
@@ -89,6 +101,7 @@ a{
     height: minmax(100px, auto);
     grid-area: img;
     object-fit: cover;
+    border-radius: 1rem;
 }
 
 .card button {
@@ -104,6 +117,7 @@ a{
 
 .card p {
     grid-area: p;
+    padding: 1rem;
 }
 
 @media(max-width:768px){
@@ -155,18 +169,7 @@ a{
 
     }
 
-    .product-item-one .text{
-        padding: 10px;
-    }
-
-    .product-item-two{
-        border: 3px solid grey;
-        border-radius: 10px;
-        background-color: lightgrey;
-
-    }
-
     .card {
-        background: red;
+        background: lightgray;
     }
 }
