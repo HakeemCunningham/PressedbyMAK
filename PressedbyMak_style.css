@@ -6,11 +6,11 @@
 
 header{
     background-color: #C8E8FF;
-    font: "Itim-Regular";
+    font-family: "Itim-Regular","Serif";
 }
 
 body {
-    font: "Itim-Regular";
+    font-family: "Itim-Regular","Serif";
     font-size: 25px;
 }
 
@@ -75,8 +75,7 @@ a{
     padding: .5rem 1rem;
     grid-area: button;
     margin: 1rem;
-    gap: 5rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     transition-duration: 0.5s;
 }
 
