@@ -6,11 +6,11 @@
 
 header{
     background-color: #C8E8FF;
-    font-family: "Itim-Regular";
+    font: "Itim-Regular";
 }
 
 body {
-    font-family: "Itim-Regular";
+    font: "Itim-Regular";
     font-size: 25px;
 }
 
@@ -67,8 +67,8 @@ a{
     background-color: #ffffff;
 }
 
+/*This section defines properties for nav buttons*/
 .nav-buttons {
-    background-color: #C8E8FF;
     color: black;
     border: 0;
     border-radius: 1rem;
@@ -76,9 +76,48 @@ a{
     grid-area: button;
     margin: 1rem;
     gap: 5rem;
-    grid-area: button;
+    font-size: 1.5rem;
+    transition-duration: 0.5s;
 }
 
+.button1 {
+    background-color: #C8E8FF;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: lightgray;
+}
+
+.button2 {
+    background-color: #C8E8FF;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: lightgray;
+}
+
+.button3 {
+    background-color: #C8E8FF;
+    cursor: pointer;
+}
+
+.button3:hover {
+    background-color: lightgray;
+}
+
+.button4 {
+    background-color: #C8E8FF;
+    cursor: pointer;
+}
+
+.button4:hover {
+    background-color: lightgray;
+}
+
+
+/*This section defines properties for product cards*/
 .product-panes {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -113,11 +152,19 @@ a{
     padding: .5rem 1rem;
     margin: 1rem;
     grid-area: button;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    font-size: 1rem;
+}
+
+.card button:hover {
+    background-color: lightslategray;
 }
 
 .card p {
     grid-area: p;
     padding: 1rem;
+    font-size: 2rem
 }
 
 @media(max-width:768px){
