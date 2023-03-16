@@ -135,7 +135,7 @@ a{
 }
 
 .card img {
-    background-color: yellow;
+    background-color: lightskyblue;
     height: minmax(100px, auto);
     grid-area: img;
     object-fit: cover;
