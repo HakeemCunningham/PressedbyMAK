@@ -6,11 +6,11 @@
 
 header{
     background-color: #C8E8FF;
-    font-family: "Itim-Regular","Serif";
+    font-family: 'Itim', 'cursive';
 }
 
 body {
-    font-family: "Itim-Regular","Serif";
+    font-family: 'Itim', 'cursive';
     font-size: 25px;
 }
 
@@ -60,8 +60,8 @@ a{
 .bar{
     display: block;
     width: 25px;
-    height: 3px
-    margin 5px auto;
+    height: 3px;
+    margin 5px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #ffffff;
