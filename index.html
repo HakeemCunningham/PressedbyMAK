@@ -9,8 +9,9 @@
 
 <!--Defines font-family for site-->
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-<!--Imports google icons for buttons on navbar-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!--Imports google icons for hyperlinks on navbar-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 
 <body>
@@ -41,13 +42,15 @@
             </li>
           </ul>
 
-          <button>
-          <i class="material-icons">favorite</i>
-            </button>
-          <button>
-            <i class="material-icons">shopping cart</i>
-            </button>
+            <a><span class="material-symbols-rounded">
+                favorite
+                </span>
+            </a>
 
+            <a><span class="material-symbols-rounded">
+                shopping_cart
+                </span>
+            </a>
         </nav>
     </header>
 <!--This section displays product navigation buttons-->
@@ -57,10 +60,6 @@
             <button class="nav-buttons button2">Custom Sets</button>
             <button class="nav-buttons button3">Sizing Kits</button>
             <button class="nav-buttons button4">Other</button>
-
-        <div class="action-buttons">
-            <button class="action-buttons addtocart"> </button>
-            <button class="action-buttons favorite"> </button>
         </div>
 <!--This section displays available products-->            
     </section>
