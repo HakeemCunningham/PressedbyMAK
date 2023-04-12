@@ -44,12 +44,8 @@ a {
     font-size: 2rem;
 }
 
-.material-symbols-rounded {
-    margin: 3px;
-    font-size: 48px;
-}
 
-.material-symbols-rounded:hover {
+.material-symbols:hover {
     color: grey;
     transition: 0.7s ease;
 }
