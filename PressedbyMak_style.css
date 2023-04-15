@@ -41,11 +41,11 @@ a {
 }
 
 .nav-branding {
-    font-size: 1rem;
+    margin: 1rem;
 }
 
 .material-symbols {
-    padding-left: 24px;
+    text-align: right;
 }
 
 
@@ -135,7 +135,7 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     grid-auto-rows: minmax(100px, auto);
-    margin: 6rem;
+    margin: .5rem;
 }
 
 .card {
@@ -181,6 +181,17 @@ a {
     font-size: 2rem
 }
 
+/* Style for page headers */
+.page-headers{
+    margin: 2rem;
+    font-size: 64px;
+}
+
+/* Style for "Get a Quote" page */
+.quote-form{
+    margin: 2rem;
+}
+
 /* Adjusted settings for mobile devices */
 @media(max-width:768px){
     .hamburger{
@@ -217,18 +228,15 @@ a {
        left: 0; 
     }
 
+    .nav-buttons{
+        viewport-fit: 1;
+    }
+
     .product-panes{
         grid-template-columns: 1fr;
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
-    }
-
-    .product-image-one{
-        border: 3px solid grey;
-        border-radius: 10px;
-        background-color: lightgrey;
-
     }
 
     .card {
