@@ -41,13 +41,18 @@ a {
 }
 
 .nav-branding {
-    font-size: 2rem;
+    font-size: 1rem;
+}
+
+.material-symbols {
+    padding-left: 24px;
 }
 
 
 .material-symbols:hover {
     color: grey;
     transition: 0.7s ease;
+    fill-opacity: 1;
 }
 
 .nav-link { 
@@ -67,10 +72,10 @@ a {
     display: block;
     width: 25px;
     height: 3px;
-    margin: 5px;
+    margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #ffffff;
+    background-color: black;
 }
 
 /*This section defines properties for nav buttons*/
@@ -82,6 +87,7 @@ a {
     grid-area: button;
     margin: 1rem;
     font-size: 1.25rem;
+    text-align: center;
     transition-duration: 0.5s;
     font-family: 'Itim', 'cursive';
 }
