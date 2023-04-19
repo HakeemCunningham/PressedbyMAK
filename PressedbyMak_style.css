@@ -30,7 +30,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 24px;
 }
 
 .nav-menu {
@@ -40,12 +39,16 @@ a {
     gap: 60px;
 }
 
-.nav-branding {
-    margin: 1rem;
+.nav-branding img {
+    margin-left: 2rem;
+    height: 150px;
 }
 
 .material-symbols {
-    text-align: right;
+    justify-items: right;
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
 }
 
 
@@ -178,7 +181,7 @@ a {
 .card p {
     grid-area: p;
     padding: 1rem;
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 /* Style for page headers */
@@ -209,7 +212,7 @@ a {
     }
 
     .nav-menu{
-        position:fixed;
+        position: fixed;
         left: -100%;
         top: 70px;
         gap: 0;
