@@ -195,6 +195,24 @@ a {
     margin-left: 2rem;
 }
 
+.submit{
+    color: black;
+    background-color: #C8E8FF;
+    border: 0;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    grid-area: button;
+    margin: 1rem;
+    font-size: 1.25rem;
+    text-align: center;
+    transition-duration: 0.5s;
+    font-family: 'Itim', 'cursive';
+}
+
+.submit:hover{
+    background-color: lightgray;
+}
+
 /* Adjusted settings for mobile devices */
 @media(max-width:768px){
     .hamburger{
