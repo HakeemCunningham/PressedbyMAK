@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./PressedbyMak_style.css">
     <script src="./PressedbyMak.js"></script>
-    <title>PressedbyMak - Get a Quote</title>
+    <title>PressedbyMak - Get A Quote</title>
 
 <!--Defines font-family for site-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim&display=swap">
 <!--Imports google icons for hyperlinks on navbar-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded">
-
 </head>
 
 <body>
@@ -20,14 +19,12 @@
     <header>
         <nav class="navbar">
           <a href="#" class="nav-branding">
-          </a>
-                <img src="./PressedbyMAK_images/PressedbyMAK_Logo_Transparent.svg" alt= "PressedByMak" height="150px" width="250px">
-                </img>   
+                <img src="./PressedbyMAK_images/PressedbyMAK_Logo_Transparent.svg" alt= "PressedByMak"/>  
           </a>
           
           <ul class="nav-menu">
             <li class="nav-item">
-                <a href="./index.html" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link">Get a Quote</a>
@@ -48,22 +45,48 @@
             <span class="bar"></span>
           </div>
 
-            <a href="#" class="material-symbols">
+          <div class="material-symbols">
+            <a href="#">
                 <img src="./PressedbyMAK_images/favorite_FILL0_wght700_GRAD0_opsz48.svg" alt="Favorite" height="30px" width="30px">
             </a>
-            <a href="#" class="material-symbols">
+            <a href="#">
                 <img src="./PressedbyMAK_images/shopping_cart_FILL0_wght700_GRAD0_opsz48.svg" alt="Cart" height="30px" width="30px">
             </a>
+        </div>
+
         </nav>
     </header>
+
 <!--Displays page title-->
     <p class="page-headers">Get a Quote</p>
 
-    <form class="quote-form">
+    <form action="#" class="quote-form">
         <label for="fname">First name*:</label>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname" required autofocus><br><br>
         <label for="lname">Last name*:</label>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="contact">Preferred method of contact*:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="phone">Phone Number*:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+        <label for="email">Email*:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <p>Preferred method of contact*:</p>
+        <input type="radio" id="text" name="prefcon">
+        <label for="text">Text message</label><br>
+        <input type="radio" id="email" name="prefcon">
+        <label for="email">Email</label><br><br>
+        <!--Blank space for nail size input-->
+
+        <label for="file">Insert photo(s) of custom set (If Applicable):</label><br>
+        <input type="file" id="file" name="file" multiple><br><br>
+        <!--Max length for note must be 150 characters (defined in js)-->
+        <label for="note">Notes:</label>
+        <input type="text" id="note" name="note" maxlength="150"><br><br>
+
+        <!--Submit Button-->
+        <input type="submit" class="submit" value="Submit">
+
+
+
+
     </form>
 </body>

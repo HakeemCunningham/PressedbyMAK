@@ -192,14 +192,14 @@ a {
 
 /* Style for "Get a Quote" page */
 .quote-form{
-    margin: 2rem;
+    margin-left: 2rem;
 }
 
 /* Adjusted settings for mobile devices */
 @media(max-width:768px){
     .hamburger{
         display: block;
-    }
+    } 
 
     .hamburger.active .bar:nth-child(2){
         opacity: 0;
