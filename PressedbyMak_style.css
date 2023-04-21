@@ -217,6 +217,7 @@ input[type=email] {
     border-radius: 1rem;
     border: 0;
     text-align: center;
+    width: 15rem;
 }
 
 input[type=radio] {
