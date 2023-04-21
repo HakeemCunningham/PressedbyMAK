@@ -62,20 +62,104 @@
 
     <form action="#" class="quote-form">
         <label for="fname">First name*:</label>
-        <input type="text" id="fname" name="fname" required autofocus><br><br>
+        <input type="text" id="fname" name="fname" placeholder="First" required autofocus><br><br>
         <label for="lname">Last name*:</label>
-        <input type="text" id="lname" name="lname" required><br><br>
+        <input type="text" id="lname" name="lname" placeholder="Last" required><br><br>
         <label for="phone">Phone Number*:</label>
         <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
         <label for="email">Email*:</label>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
         <p>Preferred method of contact*:</p>
         <input type="radio" id="text" name="prefcon">
         <label for="text">Text message</label><br>
         <input type="radio" id="email" name="prefcon">
         <label for="email">Email</label><br><br>
-        <!--Blank space for nail size input-->
 
+        <!--Blank space for nail size input-->
+        <p>Nail Sizes*:</p>
+        <div class="nail-sizes">        
+            <input list="nail-size" name="thumb" placeholder="Thumb" style="width:75px;">
+            <datalist id="nail-size">
+                <option value="7mm">
+                <option value="8mm">
+                <option value="9mm">
+                <option value="10mm">
+                <option value="11mm">
+                <option value="12mm">
+                <option value="13mm">
+                <option value="14mm">
+                <option value="15mm">
+                <option value="16mm">
+                <option value="17mm">
+                <option value="18mm">
+            </datalist>
+    
+     
+            <input list="nail-size" name="index" placeholder="Index" style="width:75px;">
+            <datalist id="nail-size">
+                <option value="7mm">
+                <option value="8mm">
+                <option value="9mm">
+                <option value="10mm">
+                <option value="11mm">
+                <option value="12mm">
+                <option value="13mm">
+                <option value="14mm">
+                <option value="15mm">
+                <option value="16mm">
+                <option value="17mm">
+                <option value="18mm">
+            </datalist>
+    
+            <input list="nail-size" name="middle" placeholder="Middle" style="width:75px;">
+            <datalist id="nail-size">
+                <option value="7mm">
+                <option value="8mm">
+                <option value="9mm">
+                <option value="10mm">
+                <option value="11mm">
+                <option value="12mm">
+                <option value="13mm">
+                <option value="14mm">
+                <option value="15mm">
+                <option value="16mm">
+                <option value="17mm">
+                <option value="18mm">
+            </datalist>
+    
+            <input list="nail-size" name="Ring" placeholder="Ring" style="width:75px;">
+            <datalist id="nail-size">
+                <option value="7mm">
+                <option value="8mm">
+                <option value="9mm">
+                <option value="10mm">
+                <option value="11mm">
+                <option value="12mm">
+                <option value="13mm">
+                <option value="14mm">
+                <option value="15mm">
+                <option value="16mm">
+                <option value="17mm">
+                <option value="18mm">
+            </datalist>
+    
+            <input list="nail-size" name="pinky"  placeholder="Pinky" style="width:75px;">
+            <datalist id="nail-size">
+                <option value="7mm">
+                <option value="8mm">
+                <option value="9mm">
+                <option value="10mm">
+                <option value="11mm">
+                <option value="12mm">
+                <option value="13mm">
+                <option value="14mm">
+                <option value="15mm">
+                <option value="16mm">
+                <option value="17mm">
+                <option value="18mm">
+            </datalist>
+    </div><br>
+    
         <label for="file">Insert photo(s) of custom set (If Applicable):</label><br>
         <input type="file" id="file" name="file" multiple><br><br>
         <!--Max length for note must be 150 characters (defined in js)-->
@@ -84,9 +168,5 @@
 
         <!--Submit Button-->
         <input type="submit" class="submit" value="Submit">
-
-
-
-
     </form>
 </body>
