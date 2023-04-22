@@ -79,6 +79,7 @@ a {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: black;
+    position: relative;
 }
 
 /*This section defines properties for nav buttons*/
@@ -191,6 +192,13 @@ a {
 }
 
 /* Style for "Get a Quote" page */
+.form-background{
+    background-color: lightgray;
+    border-radius: 1rem;
+    margin: 1rem;
+    grid-area: form;
+}
+
 .quote-form{
     margin-left: 2rem;
 }
@@ -256,7 +264,6 @@ textarea {
 @media(max-width:768px){
     .hamburger{
         display: block;
-        float: right;
     } 
 
     .hamburger.active .bar:nth-child(2){
