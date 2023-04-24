@@ -205,24 +205,27 @@ a {
 
 input[type=text] {
     margin: 1rem;
+    height: 1.25rem;
     box-shadow:0 0 15px 4px lightgray;
-    border-radius: 1rem;
+    border-radius: .5rem;
     border: 0;
     text-align: center;
 }
 
 input[type=tel] {
     margin: 1rem;
+    height: 1.25rem;
     box-shadow:0 0 15px 4px lightgray;
-    border-radius: 1rem;
+    border-radius: .5rem;
     border: 0;
     text-align: center;
 }
 
 input[type=email] {
     margin: 1rem;
+    height: 1.25rem;
     box-shadow:0 0 15px 4px lightgray;
-    border-radius: 1rem;
+    border-radius: .5rem;
     border: 0;
     text-align: center;
     width: 15rem;
@@ -237,7 +240,7 @@ input[type=radio] {
 }
 
 textarea {
-    border-radius: 1rem;
+    border-radius: .5rem;
     box-shadow:0 0 15px 4px lightgray;
     border: 0;
 }
