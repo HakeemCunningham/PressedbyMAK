@@ -14,14 +14,10 @@ addEventListener('click', () => {
 }))
 
 //Sticky Navbar//
-const navbar = document.querySelector('navbar');
-let top = navbar.offsetTop;
-function stickynavbar() {
-  if (window.scrollY >= top) {    
-    navbar.classList.add('sticky');
-  } else {
-    navbar.classList.remove('sticky');    
-  }
-}
-window.addEventListener('scroll', stickynavbar);
-
+$(window).scroll(function(){
+    if($(this).scrollTop() > 100){
+        $('.navbar').addClass('.sticky')
+    } else{
+        $('.navbar').removeClass('.sticky')
+    }
+});
