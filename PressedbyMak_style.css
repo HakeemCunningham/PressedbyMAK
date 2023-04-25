@@ -71,7 +71,7 @@ a {
     cursor: pointer;
 }
 
-.bar{
+.bar {
     display: block;
     width: 25px;
     height: 3px;
@@ -82,10 +82,18 @@ a {
     position: relative;
 }
 
-.sticky{
+.sticky {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky + .content {
+    padding-top: 60px;
 }
 
 /*This section defines properties for nav buttons*/
