@@ -1,3 +1,4 @@
+//Hamburger menu transition//
 const hamburger = document.querySelector('.hamburger');
 const navmenu = document.querySelector('.nav-menu');
 
@@ -11,3 +12,16 @@ addEventListener('click', () => {
     hamburger.classList.remove('active');
     navmenu.classList.remove('active');
 }))
+
+//Sticky Navbar//
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementsByClassName("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}
