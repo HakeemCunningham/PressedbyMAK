@@ -279,7 +279,9 @@ textarea {
     text-align: center;
     transition-duration: 0.5s;
     font-family: 'Itim', 'cursive';
-    margin: 2rem;
+    justify-self: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .submit:hover{
@@ -300,6 +302,10 @@ textarea {
     }
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .bar{
+        justify-items: right;
     }
 
     .nav-menu{
@@ -326,6 +332,7 @@ textarea {
         viewport-fit: 1;
     }
 
+/*Adjusted settings for home page*/
     .product-panes{
         grid-template-columns: 1fr;
         margin-top: 20px;
@@ -335,5 +342,10 @@ textarea {
 
     .card {
         background: lightgray;
+    }
+
+    /*Adjusted settings for mobile (Quote Page)*/
+    .nail-sizes{
+        grid-column: 1;
     }
 }
