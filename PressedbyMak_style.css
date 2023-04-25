@@ -190,7 +190,7 @@ a {
 }
 
 .card button:hover {
-    background-color: lightslategray;
+    background-color: lightgray;
 }
 
 .card p {
@@ -285,6 +285,7 @@ textarea {
     border: 0;
     grid-column: 1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    resize: none;
 }
 
 .submit{
@@ -380,6 +381,6 @@ textarea {
     
     .submit{
         justify-self: center;
-        margin-left: 1.5rem;
+        margin-left: 2rem;
     }
 }
