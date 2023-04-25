@@ -193,10 +193,18 @@ a {
 
 /* Style for "Get a Quote" page */
 .form-background{
-    background-color: lightgray;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #ebebeb;
     border-radius: 1rem;
-    margin: 1rem;
-    grid-area: form;
+    margin: 2rem;
+    padding: 1rem;
+    grid-column-end: auto;
+}
+
+.form{
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .quote-form{
@@ -235,14 +243,30 @@ input[type=radio] {
     margin-left: 3rem;
 }
 
+.photo-insert{
+    grid-column: 1;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.note{
+    grid-column: 1;
+    margin-left: 2rem;
+}
+
 .nail-sizes{
     margin-left: 3rem;
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+
 }
 
 textarea {
     border-radius: .5rem;
     box-shadow:0 0 15px 4px lightgray;
     border: 0;
+    grid-column: 1;
 }
 
 .submit{
@@ -251,12 +275,11 @@ textarea {
     border: 0;
     border-radius: 1rem;
     padding: .5rem 1rem;
-    grid-area: button;
-    margin: 1rem;
     font-size: 1.25rem;
     text-align: center;
     transition-duration: 0.5s;
     font-family: 'Itim', 'cursive';
+    margin: 2rem;
 }
 
 .submit:hover{
