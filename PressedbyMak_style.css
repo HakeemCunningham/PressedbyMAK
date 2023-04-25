@@ -311,7 +311,7 @@ textarea {
 @media(max-width:768px){
     .hamburger{
         display: block;
-    } 
+    }
 
     .hamburger.active .bar:nth-child(2){
         opacity: 0;

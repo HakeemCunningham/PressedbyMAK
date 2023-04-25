@@ -14,14 +14,14 @@ addEventListener('click', () => {
 }))
 
 //Sticky Navbar//
-window.onscroll = function() {myFunction()};
-var navbar = document.getElementsByClassName("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-    } else {
-        navbar.classList.remove("sticky");
-    }
+const navbar = document.querySelector('navbar');
+let top = navbar.offsetTop;
+function stickynavbar() {
+  if (window.scrollY >= top) {    
+    navbar.classList.add('sticky');
+  } else {
+    navbar.classList.remove('sticky');    
+  }
 }
+window.addEventListener('scroll', stickynavbar);
+
