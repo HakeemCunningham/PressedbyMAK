@@ -7,11 +7,16 @@
 header {
     background-color: #C8E8FF;
     font-family: 'Itim', 'cursive';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
 
 body {
     font-family: 'Itim', 'cursive';
     font-size: 25px;
+    padding-top: 130px;
 }
 
 li {
@@ -28,6 +33,8 @@ p{
     margin-right: 1rem;
     margin-left: 1rem;
 }
+
+
 
 /* Navigation bar items */
 
