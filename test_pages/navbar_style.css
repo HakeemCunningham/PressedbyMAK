@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #C8E8FF;
+    font-family: 'Itim', 'cursive';
+}
+
+body {
+    font-family: 'Itim', 'cursive';
+    font-size: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*delete when navbar is complete*/
+p{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+/* Navigation bar items */
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding img {
+    margin-left: 2rem;
+    height: 120px;
+}
+
+.material-symbols {
+    justify-items: right;
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+
+.material-symbols:hover {
+    color: grey;
+    transition: 0.7s ease;
+    fill-opacity: 1;
+}
+
+.nav-link { 
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-top: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+    position: relative;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Adjusted settings for mobile devices */
+@media(max-width:768px){
+    .hamburger{
+        display: block;
+        float: left;
+        margin-right: 2.25rem;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #C8E8FF;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        margin-top: 3.5rem;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+       left: 0; 
+    }
+
+    .nav-buttons{
+        viewport-fit: 1;
+    }
+}

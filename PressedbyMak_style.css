@@ -85,16 +85,7 @@ a {
 .sticky {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-}
-
-.content {
-    padding: 16px;
-}
-
-.sticky + .content {
-    padding-top: 60px;
 }
 
 /*This section defines properties for nav buttons*/
@@ -369,6 +360,11 @@ textarea {
     .form{
         text-align: center;
         padding: 1rem;
+    }
+
+    .radio-button{
+        display: block;
+        position: relative;
     }
 
     .nail-sizes{
