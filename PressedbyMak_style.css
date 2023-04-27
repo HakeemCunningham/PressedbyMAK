@@ -219,7 +219,7 @@ a {
 
 input[type=text] {
     margin: 1rem;
-    height: 1.25rem;
+    height: 1.5rem;
     box-shadow:0 0 15px 4px lightgray;
     border-radius: .5rem;
     border: 0;
@@ -229,7 +229,7 @@ input[type=text] {
 
 input[type=tel] {
     margin: 1rem;
-    height: 1.25rem;
+    height: 1.5rem;
     box-shadow:0 0 15px 4px lightgray;
     border-radius: .5rem;
     border: 0;
@@ -239,7 +239,7 @@ input[type=tel] {
 
 input[type=email] {
     margin: 1rem;
-    height: 1.25rem;
+    height: 1.5rem;
     box-shadow:0 0 15px 4px lightgray;
     border-radius: .5rem;
     border: 0;
@@ -370,6 +370,10 @@ textarea {
     .nail-sizes{
         grid-column: 1;
         margin-bottom: 2rem;
+    }
+
+    .photo-insert{
+        text-align: center;
     }
 
     .note{

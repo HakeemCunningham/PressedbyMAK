@@ -12,12 +12,3 @@ addEventListener('click', () => {
     hamburger.classList.remove('active');
     navmenu.classList.remove('active');
 }))
-
-//Sticky Navbar//
-$(window).scroll(function(){
-    if($(this).scrollTop() > 100){
-        $('.navbar').addClass('.sticky')
-    } else{
-        $('.navbar').removeClass('.sticky')
-    }
-});
