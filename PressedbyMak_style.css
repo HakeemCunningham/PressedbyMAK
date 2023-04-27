@@ -7,11 +7,16 @@
 header {
     background-color: #C8E8FF;
     font-family: 'Itim', 'cursive';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
 
 body {
     font-family: 'Itim', 'cursive';
     font-size: 25px;
+    padding-top: 130px;
 }
 
 li {
@@ -41,7 +46,7 @@ a {
 
 .nav-branding img {
     margin-left: 2rem;
-    height: 150px;
+    height: 120px;
 }
 
 .material-symbols {
@@ -87,6 +92,7 @@ a {
     top: 0;
     width: 100%;
 }
+
 
 /*This section defines properties for nav buttons*/
 .nav-buttons {
@@ -303,6 +309,8 @@ textarea {
 @media(max-width:768px){
     .hamburger{
         display: block;
+        float: left;
+        margin-right: 2.25rem;
     }
 
     .hamburger.active .bar:nth-child(2){
@@ -325,6 +333,7 @@ textarea {
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        margin-top: 3.5rem;
     }
 
     .nav-item{
