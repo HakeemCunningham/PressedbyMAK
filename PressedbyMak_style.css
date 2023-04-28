@@ -269,6 +269,12 @@ input[type=radio] {
     margin-left: 2rem;
 }
 
+.hand-image{
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+}
+
 .nail-sizes{
     margin-left: 3rem;
     grid-column: 2;
