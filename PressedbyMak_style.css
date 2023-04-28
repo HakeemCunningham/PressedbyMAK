@@ -382,6 +382,11 @@ textarea {
         position: relative;
     }
 
+    .hand-image{
+        grid-column: 1;
+        
+    }
+
     .nail-sizes{
         grid-column: 1;
         margin-bottom: 2rem;
