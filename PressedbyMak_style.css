@@ -151,7 +151,7 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     grid-auto-rows: minmax(100px, auto);
-    margin: .5rem;
+    margin: .5rem 4rem .5rem 4rem;
 }
 
 .card {
