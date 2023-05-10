@@ -311,6 +311,20 @@ textarea {
     background-color: lightgray;
 }
 
+/* Style for Contact Page */
+.page-background{
+    background-color: #ebebeb;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.contact-item{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+
 /* Adjusted settings for mobile devices */
 @media(max-width:768px){
     .hamburger{
@@ -375,6 +389,7 @@ textarea {
     .form{
         text-align: center;
         padding: 1rem;
+
     }
 
     .radio-button{
@@ -384,7 +399,7 @@ textarea {
 
     .hand-image{
         grid-column: 1;
-        
+        display: block;
     }
 
     .nail-sizes{
