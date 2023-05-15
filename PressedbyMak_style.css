@@ -324,6 +324,25 @@ textarea {
     margin-bottom: 1rem;
 }
 
+.contact-link:hover{
+    background-color: lightgray;
+}
+
+/*Style for About Me Page */
+.profile-pic{
+    float: left;
+    margin: 2rem;
+    shape-outside: circle(50%);
+}
+
+.bio-title{
+    margin-bottom: 1rem;
+}
+
+.my-bio{
+    margin-right: 2rem;
+}
+
 
 /* Adjusted settings for mobile devices */
 @media(max-width:768px){
@@ -419,4 +438,12 @@ textarea {
         justify-self: center;
         margin-left: 2rem;
     }
-}
+
+    /*Adjusted settings for mobile (About Me Page)*/
+    .profile-pic{
+        float: left;
+        margin: 2rem;
+        shape-outside: circle(35%);
+        width: 150px;
+        }
+    }
