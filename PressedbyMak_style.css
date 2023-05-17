@@ -230,7 +230,7 @@ footer {
   }
   
   .quick-link {
-    
+    font-size: 15px;
   }
   
   .quick-link:hover {
@@ -255,7 +255,7 @@ footer {
   }
 
 /* Style for "Get a Quote" page */
-.form-background{
+.form-background {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #ebebeb;
@@ -265,12 +265,12 @@ footer {
     grid-column-end: auto;
 }
 
-.form{
+.form {
     grid-column: 1;
     grid-row: 2;
 }
 
-.quote-form{
+.quote-form {
     margin-left: 2rem;
 }
 
@@ -309,24 +309,24 @@ input[type=radio] {
     margin-left: 3rem;
 }
 
-.photo-insert{
+.photo-insert {
     grid-column: 1;
     margin-left: 2rem;
     margin-bottom: 2rem;
 }
 
-.note{
+.note {
     grid-column: 1;
     margin-left: 2rem;
 }
 
-.hand-image{
+.hand-image {
     grid-column: 2;
     grid-row: 2;
     justify-self: center;
 }
 
-.nail-sizes{
+.nail-sizes {
     margin-left: 3rem;
     grid-column: 2;
     grid-row: 3;
@@ -343,7 +343,7 @@ textarea {
     resize: none;
 }
 
-.submit{
+.submit {
     color: black;
     background-color: #C8E8FF;
     border: 0;
@@ -358,46 +358,46 @@ textarea {
     margin-bottom: 1rem;
 }
 
-.submit:hover{
+.submit:hover {
     background-color: lightgray;
 }
 
 /* Style for Contact Page */
-.page-background{
+.page-background {
     background-color: #ebebeb;
     border-radius: 1rem;
     margin: 2rem;
     padding: 1rem;
 }
 
-.contact-item{
+.contact-item {
     margin-left: 2rem;
     margin-bottom: 1rem;
 }
 
-.contact-link:hover{
+.contact-link:hover {
     background-color: lightgray;
 }
 
 /*Style for About Me Page */
-.profile-pic{
+.profile-pic {
     float: left;
     margin: 2rem;
     shape-outside: circle(50%);
 }
 
-.bio-title{
+.bio-title {
     margin-bottom: 1rem;
 }
 
-.my-bio{
+.my-bio {
     margin-right: 2rem;
 }
 
 
 /* Adjusted settings for mobile devices */
 @media(max-width:768px){
-    .hamburger{
+    .hamburger {
         display: block;
         float: left;
         margin-right: 2.25rem;
@@ -413,7 +413,7 @@ textarea {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .nav-menu{
+    .nav-menu {
         position: fixed;
         left: -100%;
         top: 70px;
@@ -426,20 +426,25 @@ textarea {
         margin-top: 3.5rem;
     }
 
-    .nav-item{
+    .nav-item {
         margin: 16px 0;
     }
 
-    .nav-menu.active{
+    .nav-menu.active {
        left: 0; 
     }
 
-    .nav-buttons{
+    .nav-buttons {
         viewport-fit: 1;
     }
 
+/*Adjusted settings for page footer*/
+    .link-icons{
+        height: 30px;
+    }
+
 /*Adjusted settings for home page*/
-    .product-panes{
+    .product-panes {
         grid-template-columns: 1fr;
         margin-top: 20px;
         margin-left: 20px;
@@ -451,47 +456,47 @@ textarea {
     }
 
     /*Adjusted settings for mobile (Quote Page)*/
-    .form-background{
+    .form-background {
         align-content: center;
         margin-left: 2.5rem;
     }
 
-    .form{
+    .form {
         text-align: center;
         padding: 1rem;
 
     }
 
-    .radio-button{
+    .radio-button {
         display: block;
         position: relative;
     }
 
-    .hand-image{
+    .hand-image {
         grid-column: 1;
         display: block;
     }
 
-    .nail-sizes{
+    .nail-sizes {
         grid-column: 1;
         margin-bottom: 2rem;
     }
 
-    .photo-insert{
+    .photo-insert {
         text-align: center;
     }
 
-    .note{
+    .note {
         text-align: center;
     }
     
-    .submit{
+    .submit {
         justify-self: center;
         margin-left: 2rem;
     }
 
     /*Adjusted settings for mobile (About Me Page)*/
-    .profile-pic{
+    .profile-pic {
         float: left;
         margin: 2rem;
         shape-outside: circle(35%);
