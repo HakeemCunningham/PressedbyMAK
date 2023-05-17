@@ -1,0 +1,50 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+  background-color: #C8E8FF;
+  font-family: 'Itim', 'cursive';
+}
+
+.footer-container {
+  margin: 1rem;
+  display: grid;
+  grid-template-areas: "footer-links footer-logo social-links"
+}
+
+.quick-link-container {
+  margin: 2rem;
+  padding-left: .5rem;
+  padding-top: .5rem;
+}
+
+.footer-headers {
+  color: grey;
+}
+
+.footer-links{
+  list-style-type: none;
+}
+
+.quick-link {
+  
+}
+
+.quick-link:hover {
+  color: grey;
+  transition: 0.3s ease;
+}
+
+.footer-logo{
+  justify-self: center;
+  margin-top: 5rem;
+}
+
+.social-links {
+  justify-self: right;
+  margin: 2rem;
+  padding-right: .5rem;
+  padding-top: .5rem;
+}
