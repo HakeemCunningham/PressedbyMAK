@@ -483,12 +483,12 @@ textarea {
 
     .radio-button {
         display: block;
-        position: relative;
+
     }
 
     .hand-image {
         grid-column: 1;
-        display: block;
+        
     }
 
     .nail-sizes {
