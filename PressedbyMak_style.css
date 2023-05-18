@@ -100,9 +100,9 @@ a {
     border: 0;
     border-radius: 1rem;
     padding: .5rem 1rem;
-    grid-area: button;
-    margin: 1rem;
-    font-size: 1.25rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 1.15rem;
     text-align: center;
     transition-duration: 0.5s;
     font-family: 'Itim', 'cursive';
@@ -160,11 +160,11 @@ a {
     display: grid;
     gap: 1rem;
     grid-template-areas: "img img"
-                        "p button";                    
+                            "h3 p" 
+                        "a button";                    
 }
 
 .card img {
-    background-color: lightskyblue;
     height: minmax(100px, auto);
     grid-area: img;
     object-fit: cover;
@@ -179,7 +179,8 @@ a {
     border: 0;
     border-radius: 1rem;
     padding: .5rem 1rem;
-    margin: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
     grid-area: button;
     cursor: pointer;
     transition-duration: 0.5s;
@@ -191,14 +192,26 @@ a {
     background-color: lightgray;
 }
 
+.card h3 {
+    grid-area: h3;
+}
+
 .card p {
     grid-area: p;
-    padding: 1rem;
-    font-size: 2rem;
+    justify-self: end;
+    margin-right: 3.5rem;
+    margin-top: .25rem;
+}
+
+.card a{
+    grid-area: a;
+    justify-self: right;
+    margin-left: 13rem;
+    margin-top: .25rem;
 }
 
 /* Style for page headers */
-.page-headers{
+.page-headers {
     margin: 2rem;
     font-size: 64px;
 }
@@ -207,6 +220,7 @@ a {
 footer {
     background-color: #C8E8FF;
     font-family: 'Itim', 'cursive';
+    width: 100vw;
   }
   
   .footer-container {
@@ -251,7 +265,7 @@ footer {
   }
 
   .link-icons {
-    
+    cursor: pointer;
   }
 
 /* Style for "Get a Quote" page */
@@ -435,7 +449,7 @@ textarea {
     }
 
     .nav-buttons {
-        viewport-fit: 1;
+        viewport-fit: 1; 
     }
 
 /*Adjusted settings for page footer*/
