@@ -151,7 +151,7 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     grid-auto-rows: minmax(100px, auto);
-    margin: .5rem 4rem .5rem 4rem;
+    margin: .5rem 12rem .5rem 12rem;
 }
 
 .card {
@@ -203,11 +203,9 @@ a {
     margin-top: .25rem;
 }
 
-.card a{
+.card a {
     grid-area: a;
     justify-self: right;
-    margin-left: 13rem;
-    margin-top: .25rem;
 }
 
 /* Style for page headers */
@@ -220,7 +218,6 @@ a {
 footer {
     background-color: #C8E8FF;
     font-family: 'Itim', 'cursive';
-    width: 100vw;
   }
   
   .footer-container {
@@ -230,6 +227,7 @@ footer {
   }
   
   .quick-link-container {
+    justify-self: left;
     margin: 2rem;
     padding-left: .5rem;
     padding-top: .5rem;
@@ -260,12 +258,11 @@ footer {
   .social-links {
     justify-self: right;
     margin: 2rem;
-    padding-right: .5rem;
-    padding-top: .5rem;
   }
 
   .link-icons {
     cursor: pointer;
+    justify-self: center;
   }
 
 /* Style for "Get a Quote" page */
