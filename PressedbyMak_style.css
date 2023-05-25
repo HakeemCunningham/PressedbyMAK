@@ -157,6 +157,7 @@ a {
 .card {
     background-color: lightgray;
     border-radius: 1rem;
+    box-shadow:0 0 20px 4px lightgray;
     display: grid;
     gap: 1rem;
     grid-template-areas: "img img"
