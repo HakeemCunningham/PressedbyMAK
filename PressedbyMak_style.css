@@ -189,6 +189,12 @@ a {
     font-family: 'Itim', 'cursive';
 }
 
+.card a button {
+    grid-area: button;
+    gap: 1rem;
+    justify-items: right;
+}
+
 .card button:hover {
     background-color: lightgray;
 }
@@ -204,10 +210,6 @@ a {
     margin-top: .25rem;
 }
 
-.card a {
-    grid-area: a;
-    justify-self: right;
-}
 
 /* Style for page headers */
 .page-headers {
