@@ -321,7 +321,9 @@ input[type=email] {
 
 input[type=radio] {
     margin-left: 3rem;
+    
 }
+
 
 .photo-insert {
     grid-column: 1;
@@ -383,11 +385,13 @@ textarea {
     border-radius: 1rem;
     margin: 2rem;
     padding: 1rem;
+    width: 26.5rem;
 }
 
 .footnote-content {
     font-family: 'IBM Plex Mono' , monospace;
     font-size: 1rem;
+    text-align: center;
 }
 
 /* Style for Contact Page */
@@ -496,7 +500,6 @@ textarea {
     }
 
     .radio-button {
-        display: block;
 
     }
 
