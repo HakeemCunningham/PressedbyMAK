@@ -376,6 +376,19 @@ textarea {
     background-color: lightgray;
 }
 
+.footnote-background {
+    background-color: #C8E8FF;
+    border: 0;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.footnote-content {
+    font-family: 'IBM Plex Mono' , monospace;
+    font-size: 1rem;
+}
+
 /* Style for Contact Page */
 .page-background {
     background-color: #ebebeb;
