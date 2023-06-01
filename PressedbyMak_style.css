@@ -488,7 +488,8 @@ textarea {
 
     .hand-image {
         grid-column: 1;
-        
+        max-width: 300px;
+        align-self: center;
     }
 
     .nail-sizes {
